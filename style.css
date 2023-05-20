@@ -98,6 +98,14 @@ body{
     justify-content: center;
 }
 
+a.product-url{
+    text-decoration: none;
+    color: unset;
+}
+
+.product:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
 
 .product{
     width: 304px;

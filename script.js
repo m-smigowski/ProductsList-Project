@@ -32,6 +32,8 @@ function loadProducts(product) {
 
     const template = document.querySelector("#product-template");
     const clone = template.content.cloneNode(true);
+    const productUrl = clone.querySelector(".product-url");
+    productUrl.href = product.url;
 
     const avibilityName = clone.querySelector(".availability-name");
     avibilityName.innerHTML = product.availability.name;
