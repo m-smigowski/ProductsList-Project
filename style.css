@@ -113,7 +113,11 @@ a.product-url{
     border:1px solid #DADADA;
     padding: 20px;
     box-sizing: border-box;
+}
 
+.product-img{
+    width: 264px;
+    height: 242px;
 }
 
 .product-top{
@@ -138,6 +142,7 @@ a.product-url{
     height: 33px;
     margin-left: auto;
     border: 1px solid #E13535;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,13 +165,14 @@ a.product-url{
 }
 
 .price-box{
+    padding-top: 20px;
     display: flex;
     align-items: center;
 }
 
 .name{
-    margin-top:12px;
-    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .producer{
@@ -224,7 +230,8 @@ a.product-url{
         width: 100%;
         height: auto;
     }
-    .product-img img{
+
+    .product-img img,.product-img {
         width: 100%;
         height: auto;
     }
